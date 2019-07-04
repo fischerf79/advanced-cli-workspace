@@ -156,6 +156,7 @@
               "projects/flight-app/src/manifest.webmanifest"
             ],
             "styles": [
+              "projects/flight-app/src/custom-theme.scss",
               "projects/flight-app/src/styles.css",
               "projects/flight-app/src/assets/css/bootstrap.min.css",
               "projects/flight-app/src/assets/css/paper-dashboard.css",
