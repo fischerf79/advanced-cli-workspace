@@ -18,14 +18,11 @@ export class AppComponent {
 
 
     private setupUpdates(): void {
-        console.log('setupUpdates');
         const subscription = this.swUpdate.available.subscribe(u => {
             this.swUpdate.activateUpdate().then(e => {
                 this.snackBar.open("App updated -- please reload!", "OK");
             });
         });
-
-        console.log('checkForUpdate');
         this.swUpdate.checkForUpdate();
     }
 }
